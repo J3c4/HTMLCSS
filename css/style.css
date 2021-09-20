@@ -12,3 +12,35 @@ p{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 /* Estilo por id */
+
+.main-nav{
+    margin-top: 10px;
+    list-style: none;
+    padding-left: 0px;
+    background-color: rgb(158, 35, 35);
+}
+
+.main-nav_item{
+    display: inline-block;
+}
+
+.main-nav_item a{
+    color: whitesmoke;
+    padding: 5px;
+    border-radius: 8px;
+    text-decoration: none;
+    background-color: black;
+}
+/* Estilos especificos */
+
+.main-nav_item a:hover{
+    color: yellowgreen;
+}
+/* Pseudoclases; definen el ESTADO de un elemento */
+.main-nav_item a:active{
+    color: gold;
+}
+.main-nav_item a::after{
+    content: " | ";
+}
+/* Pseudoelemento; definen el estilo de UNA PARTE del elemento */
