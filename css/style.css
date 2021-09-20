@@ -44,3 +44,19 @@ p{
     content: " | ";
 }
 /* Pseudoelemento; definen el estilo de UNA PARTE del elemento */
+
+*{
+    box-sizing: border-box;
+    /* suma los tamaños de caja border y padding para dar tamaños mejores*/
+    padding:  0;
+    margin: 0;
+}
+.modeloCajaArt{
+    width: 100%;
+    /* width: calc(100% - 90px); */
+    /* calc para dejar corrrectamente los tamaños con propiedades de caja */
+    height: 250px;
+    border: 10px solid gray;
+    padding: 20px 350px ;
+}
+
