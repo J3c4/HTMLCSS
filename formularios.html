@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formularios</title>
+</head>
+<body>
+    <main>
+        <form>
+            <h3>Basico</h3>
+            <label for="nombre">
+                <span>Nombre : </span>
+                <input type="text" id="nombre" placeholder="unNombre">
+            </label>
+            <label for="FechaNacimiento">
+                <span>Fecha de nacimiento : </span>
+                <input type="date" id="FechaNacimiento">
+            </label>
+            <label for="HoraReg">
+                <span>Hora de registro : </span>
+                <input type="time" id="HoraReg">
+            </label>
+        </form>
+        <hr>
+        <form>        
+            <h3>Calendario individual</h3>
+            <label for="hora">
+                <span>Hora : </span>
+                <input type="time" id="hora" name="hora">
+            </label>
+            <label for="dia">
+                <span>dia : </span>
+                <input type="date" id="dia" name="dia">
+            </label>        
+            <label for="semana">
+                <span>semana : </span>
+                <input type="week" id="semana" name="semana">
+            </label>    
+            <label for="mes">
+                <span>mes : </span>
+                <input type="month" id="mes" name="mes">
+            </label>
+            <input type="submit">
+        </form>
+        <hr>
+        <form>
+            <h3>Calendario compuesto</h3>
+            <label for="calendario">
+                <span>Calendario : </span>
+                <input type="datetime-local" id="calendario" name="calendario">
+            </label>
+            <input type="submit">
+        </form>
+        <hr>
+        <form>
+            <h3>Autocompletado y requerido</h3>
+            <label for="nombre">
+                <span>Nombre : </span>
+                <input type="text" id="nombre" name="nombre" autocomplete="name" required>
+            </label>
+            <label for="correo">
+                <span>Correo :</span>
+                <input type="email" id="correo" name="correo" autocomplete="email" required>
+            </label>
+            <label for="pais">
+                <span>Pais : </span>
+                <input type="text" id="pais" name="pais" autocomplete="country" required>
+            </label>
+            <label for="cp">
+                <span>C.P. : </span>
+                <input type="text" id="cp" name="cp" autocomplete="postal-code" required> 
+            </label>
+            <input type="submit">
+        </form>
+        <hr>
+        <form>
+            <h3>select</h3>
+            <label>
+                <span></span>
+                <select name="numeros" id="numero">
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                </select>
+            </label>
+            <h3>data list</h3>
+            <input list="num">
+            <datalist id="num">
+                <option value="1"></option>
+                <option value="2"></option>
+                <option value="3"></option>                
+                <option value="4"></option>
+            </datalist>
+        </form>
+    </main>
+</body>
+</html>
