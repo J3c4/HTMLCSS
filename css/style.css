@@ -1,0 +1,14 @@
+p{
+    font-style: italic;
+}
+/* Estilo por elemento */
+.parrafo{
+    color: red;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+/* Estilo por clase */
+#segundoParrafo{
+    color: yellowgreen;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+/* Estilo por id */
