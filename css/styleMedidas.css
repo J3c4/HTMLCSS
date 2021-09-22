@@ -1,0 +1,48 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-size: 65.5%;
+}
+.MedidasPorcentual{
+    background-color: red;
+    width: 100%;
+    height: 150px;
+    font-size: 170%;
+}
+.MedidasEM{
+    background-color: blue;
+    width: 100%;
+    height: 150px;
+    font-size: 1.5em;
+}
+.MedidasEM p{
+    font-size: 1.5em;
+}
+/* em = 1 unidad del tamaño del padre directo */
+.MedidasREM{
+    background-color: green;
+    width: 100%;
+    height: 150px;
+    font-size: 1.6rem;
+}
+/* rem = tamaño de fuente inherente al tamaño predefinido del navegador */
+.medidasvwvh{
+    width: 100vw;
+    height: 25vh;
+    background-color: purple;
+}
+
+.medidasvwvh div{
+    width: 80%;
+    min-width: 300px;
+    /* necesita un parametro base */
+    min-height: 150px;
+    /* crece con su contenido */
+    background-color: darkgoldenrod;
+    margin: 0 auto;
+}
+
+/* se adapta al tamaño total de ancho y alto */
