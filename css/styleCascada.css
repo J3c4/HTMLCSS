@@ -1,0 +1,29 @@
+*{
+    box-sizing: border-box;
+    margin:0;
+    padding: 0;
+}
+h1{
+    color: indigo;
+    font-family: serif;
+    margin: 10px;
+}
+
+.title{
+    font-size: 18px;
+    font-family: monospace;
+    padding-left: 0;
+}
+.nav li{
+    display: inline-block;
+}
+.nav a{
+    color:white;
+    background-color: yellowgreen;
+    padding: 5px;
+    border-radius: 8px;
+    text-decoration: none;
+}
+.nav .prueba{
+    background-color: red;
+}
