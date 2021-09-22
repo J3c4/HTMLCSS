@@ -8,6 +8,9 @@ h1{
     font-family: serif;
     margin: 10px;
 }
+hr{
+    margin: 15px;
+}
 
 .title{
     font-size: 18px;
@@ -27,3 +30,22 @@ h1{
 .nav .prueba{
     background-color: red;
 }
+
+h2 + p{
+    color:red
+}
+/* Hermano cercano */
+
+div > p {
+    color: blue;
+}
+/* hijo directo */
+
+h3 ~ p{
+    color: green
+}
+/* hermanos */
+/* div p {
+    color: yellowgreen;
+} */
+/* hijos totales */
