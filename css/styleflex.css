@@ -20,6 +20,13 @@ body{
     justify-content: space-evenly;
     /* alinea el contenido del contenedor CENTER|EVENLY|AROUND*/
 }
+.containerVertical{
+    border: 0.3rem solid black;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    /* alinea de forma vertical el contenido del contenido del contenedor */
+}
 .box{
     width: 10rem;
     height: 10rem;
@@ -41,4 +48,37 @@ body{
 }
 .box6{
     background-color: rgb(184, 159, 159);
+}
+.box0{
+    height: 10rem;
+    flex-basis: 10rem;
+    flex-grow: 1;
+    /* permite crecer y decrecer nuestros elementos acomodandolos para no perder integridad */
+}
+.box01{
+    background-color: black;
+    order: 1;
+    /* flex-grow: 1; */
+}
+.box02{
+    background-color: darkgray;
+    order: 4;
+    /* flex-grow: 2; */
+    /* Toma el espacio horizontal que falta */
+}
+.box03{
+    background-color: gray;
+    order: 2;
+}
+.box04{
+    background-color: whitesmoke;
+    order: 5;
+}
+.box05{
+    background-color: rgb(94, 83, 83);
+    order: 3;
+}
+.box06{
+    background-color: rgb(184, 159, 159);
+    order: 6;
 }
