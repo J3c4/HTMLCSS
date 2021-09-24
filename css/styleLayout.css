@@ -13,6 +13,9 @@
     height: 75vh;
     background-color: whitesmoke;
 }
+.body section{
+    display: inline-flex;
+}
 .footer{
     width: 100vw;
     height: 10vh;
@@ -46,7 +49,6 @@ figure img{
     height: 75vh;
     background-color: dimgray;
     border-right: 2px black solid;
-    float: left;
 }
 .articleLeft div{
     margin: 11% auto;
@@ -57,7 +59,6 @@ figure img{
     background-color: darkgoldenrod;
 }
 .articleRight{
-    display: inline-block;
     width: 85vw;
     height: 75vh;
     background-color: lightskyblue;

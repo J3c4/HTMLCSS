@@ -1,0 +1,44 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+html{
+    font-size: 62.5%;
+}
+body{
+    font-size: 1.6rem;
+}
+.container{
+    border: 0.3rem solid black;
+    display: flex;
+    /* hace que sus hijos directos sean flexibles */
+    flex-direction: row;
+    /* selecciona la orientacion de la flexibilidad  */
+    flex-wrap: wrap;
+    /* mueve los elementos de manera responsiva */
+    justify-content: space-evenly;
+    /* alinea el contenido del contenedor CENTER|EVENLY|AROUND*/
+}
+.box{
+    width: 10rem;
+    height: 10rem;
+}
+.box1{
+    background-color: black;
+}
+.box2{
+    background-color: darkgray;
+}
+.box3{
+    background-color: gray;
+}
+.box4{
+    background-color: whitesmoke;
+}
+.box5{
+    background-color: rgb(94, 83, 83);
+}
+.box6{
+    background-color: rgb(184, 159, 159);
+}
