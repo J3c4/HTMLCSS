@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+    <title>Imagen Responsiva</title>
+    <link rel="stylesheet" href="css/imagenResponsiveMobile.css">
+    <link rel="stylesheet" href="css/imagenResponsiveTablet.css" media="screen and (min-width:600px)">
+    <link rel="stylesheet" href="css/imagenResponsiveDesktop.css" media="screen and (min-width:800px)">
+</head>
+<body>
+    <main>
+        <section>
+            <h1>Imagen responsiva</h1>
+            <article>
+                <picture>
+                    <source srcset="imgs/pexels-mikhail-nilov-7709017.jpg" media="(min-width:800px)"/>
+                    <source srcset="imgs/pexels-pixabay-39644.jpg" media="(min-width:600px)"/>
+                    <img src="imgs/pexels-tara-winstead-8386437.jpg" alt="Imagen Ejemplo"/>
+                </picture>
+            </article>
+        </section>
+    </main>
+</body>
+</html>
